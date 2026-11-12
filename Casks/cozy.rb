@@ -1,9 +1,9 @@
 cask "cozy" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.9.1"
-  sha256 arm:   "f4129abe392e4ba7b324767c498de50253fa4ae9f529a9a4963e519387e66613",
-         intel: "b9d001a9d3d4439f0702fb18b6e9601d883057eafb1305c5c0a17136c6bae255"
+  version "1.9.2"
+  sha256 arm:   "cdef1343514e11dc334fc96324dd2b3bffbc8b30389352082a9771d31500b347",
+         intel: "cc720692cebef81546506d4bd6ebe98be8b5c599c862d6219f0fee48b49767fc"
 
   url "https://cozyjournal.app/downloads/cozy-#{version}-#{arch}.dmg"
   name "Cozy"
